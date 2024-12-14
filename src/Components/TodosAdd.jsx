@@ -37,7 +37,7 @@ const TodosAdd = () => {
       />
       <button
         ref={buttonFocus}
-        className="ml-2 bg-blue-500 text-white py-2 px-4 border border-blue-500 disabled:opacity-75 enabled:hover:bg-lime-600 enabled:hover:border-lime-600"
+        className="ml-2 bg-blue-500 text-white py-2 px-4 border border-blue-500 disabled:opacity-75 enabled:hover:bg-lime-500 enabled:hover:border-lime-500"
         onClick={handleClick}
         disabled={addButtonDisable}
       >

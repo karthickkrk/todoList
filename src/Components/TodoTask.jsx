@@ -15,7 +15,7 @@ const TodoTask = () => {
   };
   return (
     <div className="flex justify-between mt-3 pt-4  border-t  border-gray-500">
-      <div className="border border-gray-400 w-56 flex justify-center items-center bg-lime-500">
+      <div className="border border-gray-400 text-white text-xs sm:text-sm w-28 sm:w-56 flex justify-center items-center bg-lime-500">
         <span>
           <strong>{checkedCount.length}</strong> of{" "}
         </span>
@@ -23,7 +23,7 @@ const TodoTask = () => {
           <strong>{count.length}</strong> task done
         </span>
       </div>
-      <button className="bg-blue-500 text-white py-2 px-4 border border-blue-500 flex items-center">
+      <button className="bg-blue-500 text-white py-2 px-2 sm:px-4 border border-blue-500 text-xs sm:text-sm flex items-center hover:bg-lime-500 hover:border-lime-500">
         <span className="pr-2" onClick={hadleRemove}>
           {" "}
           Removed checked

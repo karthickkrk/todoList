@@ -26,14 +26,14 @@ const TodosList = () => {
     }
   };
   return (
-    <ul className="mt-2 h-72 overflow-auto pr-2">
+    <ul className="mt-2 h-72 overflow-auto">
       {todoList.map((item, id) => {
         console.log(todoList.length);
 
         return (
           <li
             key={id}
-            className="odd:bg-blue-50 even:bg-blue-100 flex justify-between items-center px-4 py-2 mb-2"
+            className="odd:bg-blue-50 even:bg-blue-100 text-xs sm:text-sm flex justify-between items-center px-4 py-2 mb-2"
           >
             <div className="">
               <label
